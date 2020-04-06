@@ -10,7 +10,7 @@ server:
 
 
 spring:
-profiles: dev
+  profiles: dev
   application:
     name: microservicecloud-eurekaclient-examples # 应用名称
 
@@ -64,7 +64,7 @@ info: # 在eureka中可以点击info链接，显示有值。链接后的内容�
 
 
 spring:
-profiles: test
+  profiles: test
   application:
     name: microservicecloud-eurekaclient-examples # 应用名称
 
