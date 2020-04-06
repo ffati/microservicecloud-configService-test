@@ -4,7 +4,6 @@ spring:
     - dev
     
 ---
-
 server:
   port: 8001
 
@@ -58,8 +57,7 @@ info: # 在eureka中可以点击info链接，显示有值。链接后的内容�
   
   
 ---
-  
- server:
+server:
   port: 8001
 
 
@@ -91,7 +89,6 @@ spring:
       test-while-idle: true
       test-on-borrow: true
       test-on-return: true
-
 
 eureka:
   client: #客户端注册进eureka服务列表内
