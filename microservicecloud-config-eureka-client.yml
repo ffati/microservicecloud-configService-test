@@ -1,3 +1,10 @@
+spring:
+  profiles:
+    active:
+    - dev
+    
+---
+
 server:
   port: 8001
 
@@ -50,7 +57,7 @@ info: # 在eureka中可以点击info链接，显示有值。链接后的内容�
   app.description: ${project.description}
   
   
-  ---
+---
   
  server:
   port: 8001
